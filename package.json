@@ -1,0 +1,32 @@
+{
+  "name": "smart_sewage_system",
+  "version": "1.0.0",
+  "description": "Iot based smart sewage monitering system ",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "nodemon Backend/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Mekin-jema/Iot_Based_Smart_Sewage_System.git"
+  },
+  "keywords": [
+    "Sewage"
+  ],
+  "author": "Mekin and Abdu",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Mekin-jema/Iot_Based_Smart_Sewage_System/issues"
+  },
+  "homepage": "https://github.com/Mekin-jema/Iot_Based_Smart_Sewage_System#readme",
+  "devDependencies": {
+    "bcryptjs": "^2.4.3",
+    "body-parser": "^1.20.3",
+    "dotenv": "^16.4.5",
+    "express": "^4.21.1",
+    "jsonwebtoken": "^9.0.2",
+    "mongoose": "^8.7.3",
+    "nodemon": "^3.1.7"
+  }
+}
